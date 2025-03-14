@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    background: #d2d2c1 url(../arquivos-necessarios-projeto-anna-bella/fundo.png);
+}
+header{
+    padding: 10px;
+    margin: auto;
+
+}
+
+#menu ul{
+background-color: #c5c5b2;
+    list-style: none;
+    width: 840px;
+    padding: 30px;
+}
+#menu ul li{
+    display: inline;
+   
+}
+#menu ul li a {
+    color: rgb(70, 70, 121);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 29px;
+    margin-left: 30px;
+}
+#menu ul li a:hover{
+    text-decoration: underline;
+    background-color:rgba(189, 182, 174, 0.475) ;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+article{
+    background-color:#e8e8d9 ;
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 900px;
+}
+article > h1 {
+    color: rgb(129, 119, 110);
+    padding: 15px;
+}
+
+article > p {
+
+    padding: 10px;
+    text-indent: 10px;
+}
+article > address {
+    padding: 5px 0px 15px 10px;
+}
+address > p > a {
+    text-decoration: none;
+    color: black;
+}
+address > p > a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    padding-left: 300px;
+   margin: 20px;
+    font-weight: bolder;
+}
+.imagemC{
+    margin: 15px;
+    border: 10px solid rgba(129, 119, 110, 0.501);
+}
